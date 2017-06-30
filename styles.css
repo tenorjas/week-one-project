@@ -14,3 +14,12 @@ Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343
 */
+#site_header {
+  display: flex;
+  flex-direction: row;
+}
+
+#index_photos_section {
+  display: flex;
+  flex-flow: row wrap;
+}

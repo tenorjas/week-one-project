@@ -26,7 +26,20 @@ Input Border Bottom (Focus): #967343
 }
 
 .index_tag {
-  z-index: 2;
+  background-color: #968772;
+  color: #F2F1E8;
+  font-size: 14pt;
+  padding: 10px 20px 10px 20px;
+  align-items: baseline;
+}
+
+.footer {
+  background-color: #968772;
+  color: #F2F1E8;
+  font-size: 14pt;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #index_photos_section_1 {

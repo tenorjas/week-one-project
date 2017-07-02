@@ -14,12 +14,92 @@ Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343
 */
+
+#main_background {
+  background-color: #F2F1E8;
+}
+
 #site_header {
   display: flex;
   flex-direction: row;
+  background-color: #FFFFFF;
 }
 
-#index_photos_section {
+.index_tag {
+  z-index: 2;
+}
+
+#index_photos_section_1 {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#index_photos_section_2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#product-1 {
+  background-image: url(images/product-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 780px;
+  margin: 10px;
+}
+
+#product-2 {
+  background-image: url(images/product-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 220px;
+  margin: 10px;
+}
+
+#product-3 {
+  background-image: url(images/product-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 250px;
+  margin: 10px;
+}
+
+#product-4 {
+  background-image: url(images/product-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+}
+
+#product-5 {
+  background-image: url(images/product-5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+}
+
+#product-6 {
+  background-image: url(images/product-6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 480px;
+  margin: 10px;
+}
+
+#product-7 {
+  background-image: url(images/product-7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 250px;
+  margin: 10px;
 }

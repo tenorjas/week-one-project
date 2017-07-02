@@ -19,10 +19,28 @@ Input Border Bottom (Focus): #967343
   background-color: #F2F1E8;
 }
 
+#about_background {
+  background-color: #F2F1E8;
+  height: 600px;
+}
+
+#newsletter_background {
+  background-image: url(images/background-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #site_header {
   display: flex;
   flex-direction: row;
   background-color: #FFFFFF;
+}
+
+.main_navigation {
+  font-family: sans-serif;
+  color: #2B2F26;
+  margin-top:40px;
+  text-align: center;
 }
 
 #index_headlines {

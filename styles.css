@@ -170,9 +170,6 @@ Input Border Bottom (Focus): #967343
   font-style: italic;
   font-size: 20pt;
   padding-left: 20px;
-  border: 0px 0px 0px 2px;
-  border-width: thin;
-  border-color: brown;
 }
 
 #Jenn_Wilson_quote p {
@@ -185,6 +182,7 @@ h2 {
   font-weight: normal;
   color: #F2F1E8;
   text-align: center;
+  line-height: 300pt;
 }
 
 h3 {
@@ -198,4 +196,22 @@ h3 {
   background-position: top;
   height: 400px;
   width: auto;
+}
+
+#background-1 {
+  float: right;
+  font-size: 12pt;
+  width: 250px;
+  height: 500px;
+}
+
+table {
+  padding-bottom: 50px;
+}
+
+th, td {
+  border: 1px solid black;
+  font-weight: normal;
+  font-size: 16pt;
+  padding: 10px;
 }

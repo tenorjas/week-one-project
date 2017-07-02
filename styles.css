@@ -21,7 +21,6 @@ Input Border Bottom (Focus): #967343
 
 #about_background {
   background-color: #F2F1E8;
-  height: 600px;
 }
 
 #newsletter_background {
@@ -147,4 +146,54 @@ Input Border Bottom (Focus): #967343
   height: 250px;
   width: 250px;
   margin: 10px;
+}
+
+#about_section_1 > h1 {
+  font-size: 60pt;
+  font-weight: normal;
+  text-align: center;
+}
+
+#birdhouse {
+  float: left;
+}
+
+.about_text {
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 24pt;
+}
+
+#Jenn_Wilson_quote {
+  font-style: italic;
+  font-size: 20pt;
+  padding-left: 20px;
+  border: 0px 0px 0px 2px;
+  border-width: thin;
+  border-color: brown;
+}
+
+#Jenn_Wilson_quote p {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 60pt;
+  font-weight: normal;
+  color: #F2F1E8;
+  text-align: center;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+#about_section_2 {
+  background-image: url(images/background-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 400px;
+  width: auto;
 }

@@ -168,10 +168,19 @@ Input Border Bottom (Focus): #967343
   font-size: 24pt;
 }
 
+.about_text p a {
+  color: #968772;
+}
+.about_text p a:hover {
+  color: #967343;
+}
+
 #Jenn_Wilson_quote {
   font-style: italic;
   font-size: 20pt;
-  padding-left: 20px;
+  padding-left: 40px;
+  border-left: 1px solid #968772;
+  margin-left: 0;
 }
 
 #Jenn_Wilson_quote p {

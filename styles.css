@@ -171,6 +171,16 @@ nav a {
   margin: 10px;
 }
 
+#index_photos_section_1 section a {
+  position: relative;
+  bottom: -300px;
+}
+
+#index_photos_section_2 section a {
+  position: relative;
+  bottom: -200px;
+}
+
 #about_section_1 > h1 {
   font-size: 60pt;
   font-weight: normal;

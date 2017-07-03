@@ -249,7 +249,13 @@ th, td {
 #name_block {
   display: flex;
   flex-direction: row;
+}
+
+#name_block input{
+  border: 0;
+  border-bottom: 1px solid #968772;
   font-family: sans-serif;
+  font-size: 14pt;
   line-height: 24pt;
   color: gray;
 }
@@ -257,7 +263,12 @@ th, td {
 #email_block {
   display: flex;
   flex-direction: row;
+}
+
+#email_block input{
+  border: 0;
   font-family: sans-serif;
+  font-size: 14pt;
   line-height: 24pt;
   color: gray;
 }

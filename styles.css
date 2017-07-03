@@ -15,6 +15,17 @@ Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343
 */
 
+body {
+  background-color: #F2F1E8;
+}
+
+#site_header img {
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
 #main_background {
   background-color: #F2F1E8;
 }
@@ -32,16 +43,24 @@ Input Border Bottom (Focus): #967343
 }
 
 #site_header {
-  display: flex;
-  flex-direction: row;
   background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.main_navigation {
+nav {
   font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+nav a {
+  padding-right: 80px;
   color: #2B2F26;
-  margin-top:40px;
-  text-align: center;
 }
 
 #index_headlines {
@@ -217,7 +236,8 @@ h3 {
 }
 
 table {
-  padding-bottom: 50px;
+  border-collapse: collapse;
+  margin-bottom: 50px;
 }
 
 th, td {

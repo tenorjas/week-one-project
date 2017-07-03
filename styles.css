@@ -221,13 +221,17 @@ th, td {
 .newsletter_form {
   background: white;
   width: 800px;
-  height: 450px;
+  height: 250px;
   text-align: center;
   padding: 40px 20px 40px 20px;
+  position: absolute;
+  top: 35%;
+  left: 22%;
 }
 
 .newsletter_form h1 {
   font-weight: normal;
+  line-height: 48pt;
 }
 
 .newsletter_form h2 {
